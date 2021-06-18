@@ -7,5 +7,10 @@
 	http://www.voidcn.com/article/p-sybtklyd-bqw.html
 
 2. 查看文件修改内容  git diff "filename"
+	查看工作区与版本库最新版本区别： git diff HEAD --"filename"
 3. 查看版本库、历史记录	git log / git log --pretty=oneline
 4. 版本回退 git reset --hard HEAD^ (/id)
+5. 查看每次的操作命令 git reflog
+6. 撤回工作区的修改 git checkout --filename，回到最近一次git commit、add的状态
+	注意需要加--, 不然就是切换分支
+7. 撤回暂存区的修改 git reset HEAD <file>
