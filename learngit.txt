@@ -27,3 +27,6 @@
 	$ git checkout -b dev = 
 	$ git branch dev
 	$ git checkout dev
+
+12. 合并冲突分支
+	git status 查看相应文件状态并修改冲突
