@@ -27,3 +27,7 @@
 	$ git checkout -b dev = 
 	$ git branch dev
 	$ git checkout dev
+11. 合并分支
+	1. 添加并提交相应文件
+	2. 切换回master
+	3. git merge dev
