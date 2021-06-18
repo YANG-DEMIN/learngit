@@ -23,3 +23,7 @@
 	git config --global --unset http.proxy
 	git config --global --unset https.proxy
 9. 代理情况下，添加远程仓库时需要使用https:模式，而非ssh:
+10. 创建并切换分支
+	$ git checkout -b dev = 
+	$ git branch dev
+	$ git checkout dev
