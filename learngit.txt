@@ -5,3 +5,5 @@
 	$ git config --global user.email "email"
 
 	http://www.voidcn.com/article/p-sybtklyd-bqw.html
+
+2. 查看文件修改内容  git diff "filename"
