@@ -7,3 +7,5 @@
 	http://www.voidcn.com/article/p-sybtklyd-bqw.html
 
 2. 查看文件修改内容  git diff "filename"
+3. 查看版本库、历史记录	git log / git log --pretty=oneline
+4. 版本回退 git reset --hard HEAD^ (/id)
