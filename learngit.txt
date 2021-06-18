@@ -1,0 +1,7 @@
+1. 查看、修改用户名和邮箱地址
+	$ git config user.name
+	$ git config user.email
+	$ git config --global user.name "username"
+	$ git config --global user.email "email"
+
+	http://www.voidcn.com/article/p-sybtklyd-bqw.html
