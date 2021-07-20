@@ -70,3 +70,6 @@
 	强制覆盖
 		git reset --hard
 		git pull
+21. 每次上传都需要输入名称密码的解决方案：
+	git config --global credential.helper store
+	git pull /git push (这里需要输入用户名和密码，以后就不用啦)
