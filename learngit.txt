@@ -57,3 +57,16 @@
 			或者 git clone --recurisive http://***
 18. 拉取特定分支到本地
 	git pull/fetch origin <remote branch name>
+19. 本地到远程
+	1. git branch -r 查看远程库的分支情况
+	2. 创建本地分支或者切换至需要提交的分支上去
+	3. 创建并建立远程分支链接 
+		git push --set-upstream origin <branch name>
+	（强制提交） git push origin <branch name> --force
+20. 远程代码与本地代码冲突时：
+		git stash	暂存本地更改
+		git pull 	下拉更新
+		git stash pop	调出本地更改
+	强制覆盖
+		git reset --hard
+		git pull
