@@ -3,8 +3,8 @@
 	$ git config user.email
 	$ git config --global user.name "username"
 	$ git config --global user.email "email"
-
-	http://www.voidcn.com/article/p-sybtklyd-bqw.html
+	git config --global --unset http.proxy
+	git config --global --unset https.proxy
 
 2. 查看文件修改内容  git diff "filename"
 	查看工作区与版本库最新版本区别： git diff HEAD --"filename"
