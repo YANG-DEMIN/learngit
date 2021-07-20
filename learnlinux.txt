@@ -1,3 +1,4 @@
 1. 移动/复制文件 --	mv cp
 	https://blog.csdn.net/haojiagou/article/details/89082133
-2. 
+2. 重命名文件夹
+	mv A B

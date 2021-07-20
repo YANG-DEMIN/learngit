@@ -47,4 +47,13 @@
 16. 标签
 	命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
 	命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
-	命令git tag可以查看所有标签。
+	本地标签全部推送到远程分支 git push --tags
+	命令git tag可以查看所有标签
+	删除标签: 先删除本地标签 git tag -d <tagname>
+			再删除远程标签 git push origin -delete <tagname>
+	在PX4中，有时候会对标签格式进行检测，不符合时无法通过编译，因此最好不要随便打标签（主要是我没搞明白）
+	
+17. 子模块克隆 git clone http://*** + git submodule update --init --recursive
+			或者 git clone --recurisive http://***
+18. 拉取特定分支到本地
+	git pull/fetch origin <remote branch name>
